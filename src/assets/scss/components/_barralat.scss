@@ -1,12 +1,20 @@
 @import "../variables";
 @import "../mixins";
 
-.barralateral {
+#barralateral {
+	background-color: $primary-color-alt;
+	width: 25vw;
 	#titleATM {
 		letter-spacing: 5px;
+		margin-bottom: 13rem;
 	}
 
 	.titleBL {
 		color: $color-font-alt;
+	}
+	#titleATM,
+	.titleBL,
+	p {
+		margin-left: 2rem;
 	}
 }

@@ -1,0 +1,21 @@
+@import "../variables";
+@import "../mixins";
+.buttons {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	margin-top: 15rem;
+	.button {
+		padding: 2rem;
+		background-color: $primary-color;
+		font-weight: 700;
+		width: 80%;
+		text-align: center;
+		margin: auto;
+		margin-bottom: 2rem;
+		height: 10rem;
+	}
+	:hover {
+		background-color: $secondary-color;
+	}
+}

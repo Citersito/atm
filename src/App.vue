@@ -1,10 +1,10 @@
 <template>
 	<LayoutDefault />
+	<ContenidoPrincipal />
 </template>
 
 <script>
 import LayoutDefault from "./components/LayoutDefault.vue";
-
 export default {
 	components: {
 		LayoutDefault,

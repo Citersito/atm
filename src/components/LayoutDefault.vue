@@ -3,16 +3,19 @@
 		<div id="barralateral">
 			<BarraLateral />
 		</div>
-		<main class="content"></main>
+		<main class="content">
+			<ContenidoPrincipal />
+		</main>
 	</div>
 </template>
 
 <script>
 import BarraLateral from "./BarraLateral.vue";
-
+import ContenidoPrincipal from "./ContenidoPrincipal.vue";
 export default {
 	components: {
 		BarraLateral,
+		ContenidoPrincipal,
 	},
 };
 </script>
